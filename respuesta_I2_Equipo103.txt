@@ -18,3 +18,14 @@ Si, debe agregar el repositorio del fork de Alfa
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 No se pierden los datos, Git intenta combinar los cambios.
+
+e- 1. se crea un repositorio en GitHub por parte de beta (Patricia Martinez) con los archivos README.md y FORK.txt
+2.  luego alfa (Ortu Dan) y gamma (Rodriguez Franco) apretan el botón "Fork" en el repositorio de beta y lo "forkean" en un repositorio propio local. 
+3. se crea una carpeta en el equipo de c/u donde guardar el repositorio.
+4. en la carpeta, hacer click derecho y buscar gitbash.
+5. en el gitbash poner: git clone (url del repositorio)
+6. después de que se editó el archivo fork se usa el comando: "git add ." para guardar todos los cambios nuestro repositorio local
+7. luego se usa el comando: 'git commit -m "(acá va un comentario)"' 
+8. hago 'git push' en mi repositorio local.
+9. en github, apreto el botón de Open pull request, para que beta tenga mis datos en su repositorio. 
+10. una vez que beta acepta los request, en github se apreta "sync fork" para tener todos los datos actualizados.
